@@ -33,6 +33,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// import com.nbgame.utils.Utils;
+
 public class MapsDemo extends ListActivity {
 
     @Override
@@ -77,6 +79,7 @@ public class MapsDemo extends ListActivity {
 
         Collections.sort(myData, sDisplayNameComparator);
         
+        // Utils.sayHello("this is my print from libary project!");
         return myData;
     }
 

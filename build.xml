@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 项目名称testant,可用全局替换为当前项目名称 -->
+<!--test 项目名称testant,可用全局替换为当前项目名称 -->
 <project
     name="MapsDemo"
     default="deploy" >
@@ -8,9 +8,6 @@
          The local.properties file is created and updated by the 'android' tool.
          It contains the path to the SDK. It should *NOT* be checked into
          Version Control Systems.
-
-
-
     -->
 
     <property file="local.properties" />

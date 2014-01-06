@@ -7,23 +7,22 @@ sdk.dir 指 android adk路径(注意双斜杠)
 
 
 build.xml中
-<!-- 项目名称testant,可用全局替换为当前项目名称 -->
-
+<!-- 项目名称MapsDemo,可用全局替换为当前项目名称 -->
 
 ant.properties中
 
-application.package=com.example.testant 		项目包名
-ant.project.name=testant				项目名(同build.xml)
-java.encoding=utf-8					项目编码
+application.package=com.example.android.apis 		项目包名
+ant.project.name=MapsDemo							项目名(同build.xml)
+java.encoding=utf-8									项目编码
 
-out.absolute.dir=d:/compile				临时文件夹
-gos.path=d:/app-version/test				apk存放文件夹
+out.absolute.dir=									临时文件夹
+gos.path=											apk存放文件夹
 
-key.store=D:/\u5F00\u53D1\u8D44\u6599\/rainie.keystore	签名文件位置
-key.store.password=rainie				签名密码
-key.alias=rainie					签名别名
-key.alias.password=rainie				别名密码
+key.store=											nbtlxx.keystore	签名文件位置
+key.store.password=123456							签名密码
+key.alias=nbtlxx									签名别名
+key.alias.password=123456							别名密码
 
 
-app_version=1.0						apk版本
-market_channels=guanwang,shuihu				apk渠道(逗号分隔 )
+app_version=1.0										apk版本
+market_channels=appchina 							apk渠道(逗号分隔 )

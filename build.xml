@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--test 项目名称testant,可用全局替换为当前项目名称 -->
+<!--test test for submit 项目名称testant,可用全局替换为当前项目名称 -->
 <project
     name="MapsDemo"
     default="deploy" >
